@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Telerik.OpenAccess.Metadata.Fluent;
+namespace MVCLMS.Data_Access_Layer
+{
+    public partial class DBModelMetadataSource : FluentMetadataSource
+    {
+        protected override IList<MappingConfiguration> PrepareMapping()
+        {
+            List<MappingConfiguration> configurations = new List<MappingConfiguration>();
+            return configurations;
+        }
+    }
+}
