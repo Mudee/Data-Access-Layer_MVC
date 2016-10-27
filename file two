@@ -1,0 +1,12 @@
+Data on GitHub: The easy way to make your data available | R-bloggers
+https://www.r-bloggers.com/data-on-github-the-easy-way-to-make-your-data-available/
+Jun 13, 2012 - If you are using command line git. First copy the repository's URL. This is located on the repository's GitHub home page near the top (it is slightly different from the page URL). Of course you can choose which directory on your computer to put the repository in with the cd command before running git clone .
+What is my disk quota? - User Documentation - GitHub Help
+https://help.github.com/articles/what-is-my-disk-quota/
+Tip: If you regularly push large files to GitHub, consider introducing Git Large File Storage (Git LFS) as part of your workflow. ... File and repository size limitations. ... This limit is easy to stay within if large files are kept out of the repository.
+Getting your project on GitHub · GitHub Guides
+https://guides.github.com/introduction/getting-your-project-on-github/
+Jan 15, 2014 - Navigate to the Changes tab and click Commit to create your first commit. You'll need to create a new commit every time you change files. Creating a commit is like saving a file—you are telling Git that you'd like to remember this point in history. Make as many commits as you like locally.
+git - How to manage large data files with GitHub? - Stack Overflow
+stackoverflow.com/questions/13115058/how-to-manage-large-data-files-with-github
+Oct 29, 2012 - Put it in the repo if: 1- you want to keep track of the changes 2- it is actually a part of .... Stack Overflow · Server Fault · Super User · Web Applications · A
