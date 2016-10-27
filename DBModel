@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Telerik.OpenAccess;
+using Telerik.OpenAccess.Metadata;
+
+namespace MVCLMS.Data_Access_Layer
+{
+    public partial class DBModel : OpenAccessContext
+    {
+        private static string connectionStringName = @"ConnectionLMS";
+
+        private static BackendConfiguration backend = GetBackendConfiguration();
+
+        private static MetadataSource metadataSource = new DBModelMetadataSource();
+
+        public DBModel() : base(connectionStringName, backend, metadataSource) { }
+
+        public static BackendConfiguration GetBackendConfiguration()
+        {
+            BackendConfiguration backend = new BackendConfiguration();
+            backend.Backend = "MsSql";
+            backend.ProviderName = "System.Data.SqlClient";
+            backend.Runtime.CommandTimeout = 200;
+            return backend;
+        }
+    }
+}
